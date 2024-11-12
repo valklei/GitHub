@@ -1,0 +1,214 @@
+    1  vi
+    2  ssh-keygen
+    3  cat /c/Users/Valerii/.ssh/id_ed25519
+    4   cat /c/Users/Valerii/.ssh/id_ed25519.pub
+    5  mailto:ec2-user@linux.itcareerhub.de
+    6  ssh-i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+    7  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de 
+    8  ssh -i /c/Users/Valerii/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+    9  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+   10  ssh -i /c/users/Valerii/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   11  ls -la
+   12  top
+   13  ssh -i /c/users/Valerii/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   14  git config --global user.name "Valerii"
+   15  git config --global user.email "valklei1964@gmail.com"
+   16  git config --list
+   17  pwd
+   18  mkdir ~/new_first_repo
+   19  pwd
+   20  cd /new_first_repo
+   21  cd new_first_repo
+   22  git init
+   23  touch file.txt
+   24  ls -la
+   25  git add file.txt
+   26  git status
+   27  git commit -m "First commit"
+   28  git status
+   29  git remote add origin https://github.com/valklei/new_first_repo.git
+   30  git push -u origin
+   31  get branch -M main
+   32  git branch -M main
+   33  git push -u origin main
+   34  git push -u origin main
+   35  git push -u origin main
+   36  history
+   37  cd -
+   38  mkdir git
+   39  mkdir git_intro
+   40  cd /git_intro
+   41  cd git_intro
+   42  git init
+   43  git branch -M main
+   44  git remote add origin https://github.com/valklei/git_intro.git
+   45  git add .
+   46  git commit -m "added photo"
+   47  git push -u origin main
+   48  cd ..
+   49  git clone https://github.com/valklei/bashscripts.git
+   50  ls -la
+   51  git clone https://github.com/valklei/Gitbranch1.git
+   52  ls -la
+   53  cd gitbranch1/
+   54  git checkout - b gitignore
+   55  git checkout -b gitignore
+   56  curl -O https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+   57  git add
+   58  git add .gitignore
+   59  git status
+   60  git push -u origin gitignore
+   61  ls -a
+   62  curl -O https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+   63  touch .gitignore
+   64  ls -la
+   65  git add .gitignore
+   66  git commit -m 'ffffff'
+   67  git push -u origin gitignore
+   68  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   69  ssh -i /c/Users/Valerii/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   70  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   71  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   72  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   73  pwd
+   74  ls -la
+   75  touch study_valerii.txt
+   76  ls -la
+   77  vi study_valerii.txt
+   78  chmod +x study_valerii.txt
+   79  ls -la
+   80  .study_valerii.txt
+   81  ./study_valerii.txt
+   82  git init
+   83  git add study_valerii.txt
+   84  git study
+   85  git status
+   86  git commit -m "first commit"
+   87  git branch -M main
+   88  git remote add origin https://github.com/valklei/My_second_repo.git
+   89  git push -u origin main
+   90  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   91  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   92  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   93  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+   94  pwd
+   95  git clone https://github.com/valklei/GitHub.git
+   96  git status
+   97  pwd
+   98  git checkout -b feature
+   99  vim README.txt
+  100  vim .gitignore
+  101  git status
+  102  git add README.txt
+  103  git add .gitignore
+  104  git commit -m "First branch"
+  105  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  106  history
+  107  git status
+  108  git push -u origin feature
+  109  git commit --amend -m "Second und others branches"
+  110  git checkout main
+  111  git merge feature
+  112  touch history.txt
+  113  history > history.txt
+  114  vim history.txt
+  115  git clone https://github.com/valklei/GitHub.git
+  116  git status
+  117  git checkout -b feature
+  118  vim README.txt
+  119  vim .gitignore
+  120  git add README.txt
+  121  git add .gitignore
+  122  git commit -m "First branch"
+  123  git status
+  124  pwd
+  125  ls -l
+  126  git clone https://github.com/valklei/GitHub.git
+  127  git clone https://github.com/valklei/GitHub.git
+  128  git status
+  129  git clone https://github.com/valklei/GitHub.git
+  130  git clone https://github.com/valklei/GitHub.git
+  131  git status
+  132  git checkout -b feature
+  133  git clone https://github.com/valklei/GitHub.git
+  134  git checkout - b feature
+  135  git status
+  136  git checkout - b feature
+  137  pwd
+  138  git status
+  139  git checkout - b feature
+  140  git branch feature
+  141  git checkout -b feature1
+  142  vim README.txt
+  143  vim .gitignore
+  144  git status
+  145  vim README.md
+  146  git add README.md
+  147  git add .gitignore
+  148  git status
+  149  git commit -m "correct README and .gitignore"
+  150  git push -u origin feature
+  151  git push -u origin feature1 to https://github.com/valklei/GitHub.git
+  152  git push -u origin feature1
+  153  pwd
+  154  git init
+  155  git branch -d feature1
+  156  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  157  pwd
+  158  cd /c/users/Valerii
+  159  git branch -d feature1
+  160  git log
+  161  git branch -d feature
+  162  git out
+  163   rm -rf .git
+  164  git init
+  165  git clone https://github.com/valklei/GitHub.git
+  166  git checkout -b feature
+  167  vim README.md
+  168  vim .gitignore
+  169  git add README.md
+  170  git add .gitignore
+  171  git status
+  172  git commit -m "Change README and .gitignore"
+  173  git push -u origin feature
+  174   rm -rf .git
+  175  git clone https://github.com/valklei/GitHub.git
+  176   rm -rf .git
+  177  git clone https://github.com/valklei/GitHub.git
+  178  git checkout -b feature
+  179  git init
+  180  git checkout -b feature
+  181  git checkout master
+  182  git checkout main
+  183  git checkout master
+  184   rm -rf .git
+  185  git init
+  186  git branch -m master main
+  187  git clone https://github.com/valklei/GitHub.git
+  188  git checkout -b feature
+  189  vim README.md
+  190  vim .gitignore
+  191  git add README.md
+  192  git add .gitignore
+  193  git commit -m "Change README and gitignore"
+  194  git push -u origin feature
+  195   rm -rf .git
+  196  git clone https://github.com/valklei/GitHub.git
+  197  cd GitHub
+  198  ls -l
+  199  ls -la
+  200  git checkout -b feature
+  201  vim README.md
+  202  vim README.md
+  203  vim .gitignore
+  204  git status
+  205  git add .
+  206  git status
+  207  git commit -m "Change files"
+  208  git status
+  209  git push -u origin feature
+  210  git commit --amend
+  211  git checkout main
+  212  git merge feature
+  213  touch history.txt
+  214  history > history.txt
